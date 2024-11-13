@@ -3,7 +3,7 @@
 
 char a[16], ac[20], stk[15], act[10];
 
-int k = 0, i = 0, j = 0, c, z=0;
+int i = 0, j = 0, c, z=0;
 void check(int c);
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
     strcpy(act, "SHIFT->");
     printf("Stack\tInput\tAction\n");
 
-    for (k = 0, i = 0; j < c; k++, i++, j++) {
+    for (i = 0; j < c; i++, j++) {
         if (a[j] == 'i' && a[j+1] == 'd') {
             stk[i] = a[j];
             stk[i+1] = a[j+1];
