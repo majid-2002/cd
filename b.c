@@ -3,7 +3,7 @@
 
 char a[16], ac[20], stk[15], act[10];
 
-    int k = 0, i = 0, j = 0, c,z=0;
+int k = 0, i = 0, j = 0, c, z=0;
 void check(int c);
 
 int main() {
